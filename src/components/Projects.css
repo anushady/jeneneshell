@@ -1,0 +1,68 @@
+.projectscont {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-color: #000000;
+    gap: 80px;
+    padding-top: 150px;
+}
+.projectsh1 {
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8vw;
+    font-weight: 200;
+    text-align: center;
+    -webkit-text-stroke: #efefef 1px;
+    opacity: 0.3;
+    -webkit-text-fill-color: #000000;
+    line-height: 0;
+    
+}
+.projectimg img{
+    width: 35vw;
+    height: 80%;
+}
+.singleproject{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 35vw;
+}
+.projectp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.singleproject{
+    color: #b5b5b5;
+    width: 35vw;
+}
+.projecth2{
+    font-size: 1.3vw;
+    line-height: 0;
+    font-weight: 300;
+}
+.projectp{
+    font-size: 0.8vw;
+    line-height: 0;
+    margin-top: -10px
+}
+.projectp .p2 {
+    color: #ffffff;
+    font-weight: 400;
+}
+.project2 {
+    margin-right: 30vw;
+}
+.project3 {
+    margin-left: 30vw;
+}
+.project4 {
+    margin-right: 30vw;
+}
+.project5 {
+    margin-left: 30vw;
+}

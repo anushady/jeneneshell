@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+.canvas {
+  position: relative;
+  top: 0;
+  left: -150px;
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+}
+.scrollbar-thumb {
+  background-color: #89FCAE !important;
+  width: 9px !important;
+}
+.scrollbar-track-y {
+  width: 9px !important;
+  background-color: #0e0e0e !important;
+}

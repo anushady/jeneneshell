@@ -1,0 +1,62 @@
+.HeroContainer{
+    width: 30%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+.herotext {
+    position: absolute;
+    top: 50%;
+    /* right: 0vw; */
+    transform: translate(0, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    z-index: 6 !important;
+    width: 30%;
+}
+.herotext h1 {
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    font-size:7vw;
+    font-weight: 600;
+    width: 30%;
+    line-height: 0.9;
+}
+.explore {
+    padding: 15px 60px;
+    background-color: #89FCAE;
+    color: #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5vw;
+    font-weight: 300;
+    border: none;
+    border-radius: 30px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+.explore:hover {
+    background-color: #000;
+    color: #89FCAE;
+    border: 2px solid #89FCAE;
+    transition: 0.5s;
+}
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    z-index: 6;
+}
+.logo h1{
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+.logo h1 span {
+    color: #89FCAE;
+}

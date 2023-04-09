@@ -1,0 +1,23 @@
+.FooterContainer {
+    background-color: #000000;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+
+}
+.FooterContainer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-top: #002f0f 1px solid;
+}
+.FooterContainer div p {
+    color: #89FCAE;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.9vw;
+    font-weight: 300;   
+}
